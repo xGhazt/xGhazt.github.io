@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    margin-right: 10px;
+}
+
+#nav {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 10px rgb(128, 128, 128);
+    
+}
+
+#fondo {
+    background-color: rgb(48, 48, 48);
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+
+
+
+#texto-de-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(240, 240, 240);
+    padding: 100px 50px 20px 50px;
+    font-weight: 400;
+}
+
+#texto-de-inicio h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#texto h3{
+    font-weight: 300;
+
+}
+
+.afiliarse{
+    margin-top: 50px;
+    border: 1px solid white;
+}
+.afiliarse:hover {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.formularioAfiliacion{
+    color: white;
+    padding: 15px;
+    background-color: rgba(2, 2, 2, 0.568);
+    max-width: 600px;
+    border-radius: 15px;
+    border: 2px black dashed;
+    
+}
+
+
+.containerForm{
+    padding: 0 80px 50px 80px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.txtAfiliacion h3{
+    font-weight: 300;
+    color: white;
+}
+
+
+.formularios {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+.formularioSocios1{
+    color: white;
+    padding: 15px;
+    background-color: rgba(2, 2, 2, 0.568);
+    align-items: center;
+    height: 200px;
+    max-width:400px;
+    border-radius: 15px;
+    border: 2px black dashed;
+}
+
+
+.formularioSocios2{
+    color: white;
+    padding: 15px;
+    background-color: rgba(2, 2, 2, 0.568);
+    max-width: 400px;
+    border-radius: 15px;
+    border: 2px black dashed;
+}
+
+.formularioAdmin{
+    color: white;
+    margin-top: 100px;
+    padding: 15px;
+    background-color: rgba(2, 2, 2, 0.568);
+    max-width: 600px;
+    border-radius: 15px;
+    border: 2px black dashed;
+}
+
+.textoPago {
+    color: white;
+    width: 300px;
+}
+
+
+
+.col-12 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.tablaDeSocios {
+    margin: 0 auto 20px auto;
+    max-width: 800px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px  white;
+}
+
+
+
+
+
+
+footer {
+    height: 3%;
+    margin-top: 100px;
+    padding: 15px 50px 0px 50px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: rgb(255, 255, 255) solid 1px;
+    text-align: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+
+
+#follow, #contacts, #legales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+
+.tarjetas:hover {
+    box-shadow: 0 0 10px gold;
+    transform: translateY(-5px);
+}
+
+footer a {
+    color: rgb(134, 134, 134);
+}
+
+.copy {
+    padding: 0px 10px 10px 10px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+
+
